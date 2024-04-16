@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className='w-screen bg-[#0F172A] text-xs p-[2rem] flex flex-col gap-[2rem] items-center md:gap-[3rem]'>
      <div className='text-white flex text-center text-sm md:text-2xl md:w-full md:justify-center'>The world's most innovative companies use our app</div>
-     <div className='flex flex-col gap-[2rem] md:min-w-full md:flex-row md:gap-4'>
+     <div className='flex flex-col gap-[2rem] md:min-w-full justify-around md:flex-row md:gap-4'>
         <div className='flex gap-4'>
             <div className='w-[2rem] h-[1.5rem] md:w-[3.5rem] md:h-[2.5rem]'>
                 <img src={image1} alt="logo" className='w-full h-full'/>
